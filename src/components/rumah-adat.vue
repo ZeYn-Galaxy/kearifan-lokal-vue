@@ -84,6 +84,9 @@ export default {
         <!-- SOURCE -->
         <!-- https://www.ruparupa.com/blog/macam-rumah-adat-kalimantan-timur-dan-ciri-khas/ -->
     </section>
+    <footer>
+        BY MUHAMMAD SHAFWAN KASIFILLAH
+    </footer>
 </template>
 
 <style>

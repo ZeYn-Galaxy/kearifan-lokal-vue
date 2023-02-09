@@ -222,6 +222,14 @@
     max-width: 80%;
 }
 
+footer {
+    background-color: #121127;
+    font-weight: 400;
+    font-family: var(--Merriweather);
+    text-align: center;
+    font-size: 1rem;
+}
+
 @media screen and (min-width: 768px) {
 
     .slide {
@@ -309,6 +317,13 @@
 
     .nav-link {
         font-size: 1.25rem;
+    }
+    footer {
+        background-color: #121127;
+        font-weight: 400;
+        font-family: var(--Merriweather);
+        text-align: center;
+        font-size: 1.2rem;
     }
 }
 
@@ -411,6 +426,14 @@
         font-family: var(--Merriweather);
     }
 
+    footer {
+        background-color: #121127;
+        font-weight: 400;
+        font-family: var(--Merriweather);
+        text-align: center;
+        font-size: 1.5rem;
+    }
+
     .card-cs {
         display: flex;
         flex-direction: column;
@@ -427,6 +450,14 @@
 }
 
 @media  screen and (min-width: 1200px) {
+
+    footer {
+        background-color: #121127;
+        font-weight: 400;
+        font-family: var(--Merriweather);
+        text-align: center;
+        font-size: 2rem;
+    }
 
     .row-custom {
         display: grid;

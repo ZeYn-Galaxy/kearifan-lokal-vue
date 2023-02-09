@@ -57,4 +57,7 @@ export default {
             </div>
         </div>
     </section>
+    <footer >
+        BY MUHAMMAD SHAFWAN KASIFILLAH
+    </footer>
 </template>
