@@ -51,9 +51,9 @@ export default {
         </div>
         <div class="row-custom animate__animated animate__slideInUp">
             <div class="baris">
-                <img src="../assets/images/Rumah-Lamin-1.jpg" alt="">
-                <img src="../assets/images/Rumah-Lamin.jpg" alt="">
-                <img src="../assets/images/Rumah-Lamin-2.jpg" alt="">
+                <img src="../assets/images/desa-pampang-1.jpg" alt="">
+                <img src="../assets/images/desa-pampang-2.jpg" alt="">
+                <img src="../assets/images/Desa-Pampang.jpg" alt="">
             </div>
         </div>
     </section>
