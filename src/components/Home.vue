@@ -27,16 +27,6 @@ export default {
                     subur pasca jatuhnya rezim Presiden Soeharto pada tahun 1998.
 
                 </p>
-                <p class="subheading">
-                    Lebih lanjut kearifan lokal juga didefinisikan sebagai kemampuan beradaptasi, menata, dan
-                    menumbuhkan pengaruh alam serta budaya lain yang menjadi motor penggerak transformasi dan
-                    penciptaan keanekaragaman budaya Indonesia yang luar biasa.
-                </p>
-                <p class="subheading">
-                    Ini juga bisa menjadi suatu bentuk pengetahuan, kepercayaan, pemahaman atau persepsi beserta
-                    kebiasaan atau etika adat yang menjadi pedoman perilaku manusia dalam kehidupan ekologis dan
-                    sistemik.
-                </p>
             </div>
             <div class="home-col-2 animate__animated animate__fadeInRight">
                 <div class="card-cs">

@@ -47,7 +47,8 @@
 
 .slide {
     background-color: var(--Background);
-    height: 100%;
+    height: 100vh;
+    overflow-y: auto;
 }
 
 .heading {
@@ -420,7 +421,7 @@
     }
 
     .card-cs img{
-        margin-top: 8rem;
+        margin-top: 3rem;
         border-radius: 15px;
     }
 }
