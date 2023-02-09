@@ -10,10 +10,6 @@
     --Primary: #F7D716;
 }
 
-#App {
-    height: 100vh;
-    background-color: var(--Background);
-}
 
 .navbar {
     background-color: #121127;
@@ -118,17 +114,11 @@
 .home-row {
     width: 100%;
     height: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
 }
 
 .home-col {
-    display: flex;
-    flex-direction: column;
     width: 100%;
-    height: 50%;
+    height: auto;
 }
 
 .home-col-2 {
@@ -218,6 +208,7 @@
 
 .card-cs {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     width: 100%;
@@ -225,8 +216,9 @@
 }
 
 .card-cs img{
+    margin: 3rem 0;
     border-radius: 15px;
-    max-width: 300px;
+    max-width: 80%;
 }
 
 @media screen and (min-width: 768px) {
@@ -322,6 +314,10 @@
 
 @media screen and (min-width: 992px) {
 
+    .slide {
+        height: 100%;
+    }
+
     .column .baris {
         display: flex;
         flex-direction: row;
@@ -334,28 +330,7 @@
         padding-left: 1rem;
         text-align: start;
     }
-    .row-custom {
-        display: grid;
-        flex-direction: column;
-        justify-content: center;
-        padding: 2rem 0;
-    }
-    
-    .baris {
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-        align-items: center;
-        gap: 10px;
-    }
-    
-    .baris img {
-        border-radius: 15px;
-        max-width: 100%;
-        max-height: 100%;
-        height: 300px;
-        width: 90%;
-    }
+
     
     .column .baris img {
         border-radius: 15px;
@@ -420,7 +395,13 @@
         flex-direction: column;
         gap: 15px;
     }
-    
+
+    .home-col {
+        height: 100%;
+    }
+    .home-col-2 {
+        height: 100%;
+    }
 
     .subheading {
         padding-left: 2rem;
@@ -431,13 +412,42 @@
 
     .card-cs {
         display: flex;
-        justify-content: center;
+        flex-direction: column;
+        justify-content: start;
         align-items: center;
         width: 100%;
         height: 100%;
     }
 
     .card-cs img{
+        margin-top: 8rem;
         border-radius: 15px;
     }
+}
+
+@media  screen and (min-width: 1200px) {
+
+    .row-custom {
+        display: grid;
+        flex-direction: column;
+        justify-content: center;
+        padding: 2rem 0;
+    }
+    
+    .baris {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+    }
+    
+    .baris img {
+        border-radius: 15px;
+        max-width: 100%;
+        max-height: 100%;
+        height: 300px;
+        width: 90%;
+    }
+    
 }
