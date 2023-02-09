@@ -10,18 +10,18 @@ export default {
 
 <template>
     <Navbar />
-    <section class="slide">
+    <section class="home-cs">
         <div class="column">
-            <div class="card-cs animate__animated animate__slideInLeft">
+            <div class="baris animate__animated animate__slideInLeft padding-3">
                 <div class="text-cs">
                     <p><span class="text-yellow">Amplang</span> adalah sebuah makanan ringan tradisional yang terbuat dari ikan yang disajikan di
                         Samarinda, Indonesia dan kemudian terkenal di Kalimantan Timur, Kalimantan Utara dan
                         pesisir timur Sabah, Malaysia. Amplang terbuat dari ikan tenggiri, yang dicampur
                         dengan tepung kanji dan bahan-bahan lainnya, dan kemudian digoreng.</p>
                 </div>
-                <img src="../images/amplang.JPG" alt="">
+                <img src="../assets/images/amplang.jpg" alt="">
             </div>
-            <div class="card-cs animate__animated animate__slideInUp">
+            <div class="baris animate__animated animate__slideInRight padding-3">
                 <div class="text-cs">
                     <p>
                         <span class="text-yellow">Ayam cincane</span> menjadi makanan khas Samarinda yang dimasak dengan bumbu khas sehingga
@@ -39,9 +39,9 @@ export default {
                         Selain dibakar, ayam cincane bisa digoreng sebentar hingga kulitnya sedikit kecokelatan.
                     </p>
                 </div>
-                <img src="../images/ayam-cincane.JPG" alt="">
+                <img class="cs-img" src="../assets/images/ayam-cincane.jpeg" alt="">
             </div>
-            <div class="card-cs animate__animated animate__slideInRight">
+            <div class="baris animate__animated animate__slideInLeft padding-3">
                 <div class="text-cs">
                     <p>
                         <span class="text-yellow">Nasi bekepor</span> sebenarnya adalah nasi rames alias nasi campur ala Samarinda.
@@ -60,47 +60,8 @@ export default {
                         orang.
                     </p>
                 </div>
-                <img src="../images/nasi-bekepor.JPG" alt="">
+                <img src="../assets/images/nasi-bekepor.jpg" alt="">
             </div>
         </div>
     </section>
 </template>
-
-
-<style>
-.text-cs{
-    display: flex;
-    width: 100%;
-    height: 40%;
-    justify-content: center;
-    align-items: center;
-    font-size: 1.25rem;
-    color: #FFFFFF;
-}
-
-.text-cs p {
-    text-align: center;
-}
-
-.column {
-    width: 100%;
-    height: 100%;
-    display: flex;
-    justify-content: space-between;
-}
-
-.column img {
-    height: 40%;
-    max-width: 80%;
-    border-radius: 15px;
-}
-
-.card-cs {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    width: 30%;
-    height: 100%;
-}
-</style>

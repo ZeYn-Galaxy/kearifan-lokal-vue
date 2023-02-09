@@ -10,7 +10,7 @@ export default {
 
 <template>
     <Navbar />
-    <section class="slide pd-2">
+    <section class="home-cs pd-2">
         <div class="animate__animated animate__fadeInDown">
             <div class="title">
                 <div class="top">Desa Budaya Pampang</div>
@@ -51,9 +51,9 @@ export default {
         </div>
         <div class="row-custom animate__animated animate__slideInUp">
             <div class="baris">
-                <img src="../images/Rumah-Lamin-1.JPG" alt="">
-                <img src="../images/Rumah-Lamin.JPG" alt="">
-                <img src="../images/Rumah-Lamin-2.JPG" alt="">
+                <img src="../assets/images/Rumah-Lamin-1.jpg" alt="">
+                <img src="../assets/images/Rumah-Lamin.jpg" alt="">
+                <img src="../assets/images/Rumah-Lamin-2.jpg" alt="">
             </div>
         </div>
     </section>

@@ -17,9 +17,9 @@ export default {
         </div>
         <div class="row-custom">
             <div class="baris">
-                <img class="animate__animated animate__fadeInLeft" src="../images/Rumah-Lamin-1.JPG" alt="">
-                <img class="animate__animated animate__zoomIn" src="../images/Rumah-Lamin.JPG" alt="">
-                <img class="animate__animated animate__fadeInRight" src="../images/Rumah-Lamin-2.JPG" alt="">
+                <img class="animate__animated animate__fadeInLeft" src="../assets/images/rumah-lamin-1.jpg" alt="">
+                <img class="animate__animated animate__zoomIn" src="../assets/images/Rumah-Lamin.jpg" alt="">
+                <img class="animate__animated animate__fadeInRight" src="../assets/images/rumah-lamin-2.jpg" alt="">
             </div>
         </div>
         <div class="animate__animated animate__slideInUp">
@@ -114,80 +114,14 @@ export default {
 
 .home-cs {
     width: 100%;
-    height: 150vh;
+    height: 100%;
     background-color: var(--Background);
-}
-
-.row-custom {
-    display: grid;
-    grid-template-areas: 1fr 1fr 1fr;
-    justify-content: center;
-}
-
-.baris {
-    display: flex;
-    gap: 15px;
-}
-
-.baris img {
-    border-radius: 15px;
-    max-width: 350px;
-}
-
-.title {
-    width: 100%;
-    height: 10%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.sub-title {
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-family: var(--Merriweather);
-}
-
-.sub-title span {
-    font-size: 2.5rem;
-    color: #FFFFFF;
-    font-weight: 400;
 }
 
 .p-2 {
     padding-top: 2rem;
 }
 
-
-.text {
-    overflow-wrap: break-word;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 1.25rem;
-    color: #FFFFFF;
-    font-family: var(--Merriweather);
-    font-weight: normal;
-}
-
-.text p {
-    width: 80%;
-    text-align: center;
-}
-
-.text ul li {
-    width: 80%;
-}
-
-.title .top {
-    font-size: 3rem;
-    color: #FFFFFF;
-    font-family: var(--Merriweather);
-    font-weight: 400;
-}
 
 ul>li {
     list-style: none;

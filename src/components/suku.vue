@@ -10,7 +10,7 @@ export default {
 
 <template>
     <Navbar />
-    <section class="slide pd-2">
+    <section class="home-cs pd-2">
         <div class="">
             <div class="animate__animated animate__slideInRight">
                 <div class="title">
@@ -58,13 +58,13 @@ export default {
         </div>
         <div class="row-custom">
             <div class="baris">
-                <img class="animate__animated animate__fadeInBottomLeft" src="../images/sukudayak.JPG" alt="">
-                <img class="animate__animated animate__fadeInUp" src="../images/sukudayak-2.JPG" alt="">
-                <img class="animate__animated animate__fadeInBottomRight" src="../images/sukudayak-1.JPG" alt="">
+                <img class="animate__animated animate__fadeInBottomLeft" src="../assets/images/sukudayak.jpg" alt="">
+                <img class="animate__animated animate__fadeInUp" src="../assets/images/sukudayak-2.jpg" alt="">
+                <img class="animate__animated animate__fadeInBottomRight" src="../assets/images/sukudayak-1.jpg" alt="">
             </div>
         </div>
     </section>
-    <section class="slide">
+    <section class="home-cs">
         <div class="sub-title pd-2"><span>ALAT MUSIK TRADISIONAL</span></div>
         <div class="text pd-2">
             <p>
@@ -83,9 +83,9 @@ export default {
         </div>
         <div class="row-custom animate__animated animate__slideInUp">
             <div class="baris">
-                <img src="../images/sampe.JPG" alt="">
-                <img src="../images/sampe-2.JPG" alt="">
-                <img src="../images/sampe-3.JPG" alt="">
+                <img src="../assets/images/sampe.jpg" alt="">
+                <img src="../assets/images/sampe-2.jpeg" alt="">
+                <img src="../assets/images/sampe-3.jpg" alt="">
             </div>
         </div>
         <div class="sub-title pd-4"><span>SENJATA TRADISIONAL</span></div>
@@ -100,12 +100,12 @@ export default {
             </p>
         </div>
     </section>
-    <section class="slide">
+    <section class="home-cs">
         <div class="row-custom animate__animated animate__slideInUp">
             <div class="baris">
-                <img src="../images/mandau.JPG" alt="">
-                <img src="../images/mandau-1.JPG" alt="">
-                <img src="../images/mandau-2.JPG" alt="">
+                <img src="../assets/images/mandau.jpg" alt="">
+                <img src="../assets/images/mandau-1.jpg" alt="">
+                <img src="../assets/images/mandau-2.jpg" alt="">
             </div>
         </div>
     </section>
