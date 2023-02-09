@@ -228,6 +228,7 @@ footer {
     font-family: var(--Merriweather);
     text-align: center;
     font-size: 1rem;
+    color: var(--putih);
 }
 
 @media screen and (min-width: 768px) {
@@ -324,6 +325,7 @@ footer {
         font-family: var(--Merriweather);
         text-align: center;
         font-size: 1.2rem;
+        color: var(--putih);
     }
 }
 
@@ -432,6 +434,7 @@ footer {
         font-family: var(--Merriweather);
         text-align: center;
         font-size: 1.5rem;
+        color: var(--putih);
     }
 
     .card-cs {
@@ -457,6 +460,7 @@ footer {
         font-family: var(--Merriweather);
         text-align: center;
         font-size: 2rem;
+        color: var(--putih);
     }
 
     .row-custom {
